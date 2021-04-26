@@ -2,7 +2,7 @@
 Simple Binary link maker for Windows, especially MINGW.
 
 ## Motivation
-In unix system, we can set alias of commands via **ln**. For example, we can execute neovim by type vim or nvim after link ""vim** to **nvim**
+In unix system, we can set alias of commands via **ln**. For example, we can execute neovim by type vim or nvim after link **vim** to **nvim**
 
 ``` ln -s /usr/local/nvim /usr/local/vim ```
 
@@ -27,7 +27,7 @@ C:\Users\dmhsk\workspace\exe-link>"C:\Program Files\Google\Chrome\Application\ch
     // works
 ```
   
-In my case, I want to use neovim in IntelliJ Terminal by **vim** command. I could do that be renaming nvim.exe to vim.exe, but that's not a programmer's way. So I made this simple program.
+In my case, I want to use neovim in IntelliJ Terminal by **vim** command. I could do that by renaming nvim.exe to vim.exe, but that's not a programmer's way. So I made this simple program.
 
 ## Installation
 
