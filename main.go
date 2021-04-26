@@ -27,6 +27,11 @@ func main() {
 		return
 	}
 
+	end:= dest[len(dest)-4:]
+	if end != ".exe" {
+		dest = dest + ".exe"
+	}
+
 	fmt.Println(dest)
 	fmt.Println(strings.Repeat(" ",(len(src)+len(dest))/4),"↓")
 	fmt.Println(src)
