@@ -31,6 +31,8 @@ In my case, I want to use neovim in IntelliJ Terminal by **vim** command. I coul
 
 ## Installation
 
+You need **go** because this program generates lightweight go code and builds it.
+
 ``` go get github.com/wirekang/exe-link ```
 
 ## Usage
