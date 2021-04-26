@@ -44,5 +44,5 @@ Similar with ```ln -s source destination```
 It creates <destination>.exe file that executes <source> file. You can input both arguments in relative path, the program will convert source path to absolute path.
 
 ## Example
-```exe-link Neovim/bin/nvim.exe vim```
+```exe-link Neovim/bin/nvim.exe vim```  
 output file is **vim.exe**. If the file is in **%PATH%**, you can run neovim by **vim** in cmd, powershell, MINGW and so on with any arguments.
