@@ -29,6 +29,10 @@ C:\Users\dmhsk\workspace\exe-link>"C:\Program Files\Google\Chrome\Application\ch
   
 In my case, I want to use neovim in IntelliJ Terminal by **vim** command. I could do that be renaming nvim.exe to vim.exe, but that's not a programmer's way. So I made this simple program.
 
+## Installation
+
+``` go get github.com/wirekang/exe-link ```
+
 ## Usage
 
 ```exe-link <source> <destination>```
