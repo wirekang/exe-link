@@ -12,7 +12,7 @@ You need **Go** because this program generates lightweight go code and builds it
 
 ```exe-link <source> <destination>```
 
-Similar with ```ln -s source destination```  
+Similar with ```ln -s <source> <destination>```  
 
 It creates ```<destination>.exe``` file that executes ```<source>``` file. You can input both arguments in relative path, the program will convert source path to absolute path.
 
