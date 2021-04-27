@@ -1,6 +1,25 @@
 # exe-link
 Simple Binary link maker for Windows, especially MINGW.
 
+## Installation
+
+``` go get github.com/wirekang/exe-link ```
+
+You need **Go** because this program generates lightweight go code and builds it.
+
+
+## Usage
+
+```exe-link <source> <destination>```
+
+Similar with ```ln -s source destination```  
+
+It creates ```<destination>.exe``` file that executes ```<source>``` file. You can input both arguments in relative path, the program will convert source path to absolute path.
+
+## Example
+```exe-link Neovim/bin/nvim.exe vim```
+Output filename is **vim.exe**. Now you can execute nvim.exe by typing ```vim``` in **cmd, powershell, MINGW** and so on with any arguments.
+
 ## Motivation
 In unix system, we can set alias of commands via **ln**. For example, we can execute neovim by type vim or nvim after link **vim** to **nvim**
 
@@ -29,20 +48,3 @@ C:\Users\dmhsk\workspace\exe-link>"C:\Program Files\Google\Chrome\Application\ch
   
 In my case, I want to use neovim in IntelliJ Terminal by **vim** command. I could do that by renaming nvim.exe to vim.exe, but that's not a programmer's way. So I made this simple program.
 
-## Installation
-
-You need **go** because this program generates lightweight go code and builds it.
-
-``` go get github.com/wirekang/exe-link ```
-
-## Usage
-
-```exe-link <source> <destination>```
-
-Similar with ```ln -s source destination```  
-
-It creates <destination>.exe file that executes <source> file. You can input both arguments in relative path, the program will convert source path to absolute path.
-
-## Example
-```exe-link Neovim/bin/nvim.exe vim```  
-output file is **vim.exe**. If the file is in **%PATH%**, you can run neovim by **vim** in cmd, powershell, MINGW and so on with any arguments.
