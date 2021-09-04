@@ -1,5 +1,5 @@
 # exe-link
-Simple Binary link maker for Windows, especially MINGW.
+Simple binary link maker for Windows, especially MINGW.
 
 ## Installation
 
